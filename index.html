@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Black & White Spa</title>
+
+    <link rel="stylesheet" href="/bootstrap/bootstrap.min.css">
+    <link rel="stylesheet" href="/style.css">
+
+</head>
+
+<body>
+
+    <div class="container vh-100 d-table">
+        <div class="row d-table-cell align-middle">
+            <div class="col-14 m-auto">
+                <h1 class="text-center">Black and White Spa</h1>
+            </div>
+            <form class="col-6 m-auto" action="/cargar" method="GET">
+                <div class="form-group">
+                    <label class="mb-1">Image URL:</label>
+                    <input type="text" class="form-control" id="imagen" name="imagen" placeholder="Formatos aceptados JPG / PNG / BMP / GIF / TIFF" required>
+                </div>
+                <button type="submit" class="btn btn-secondary container my-3" id="boton">Procesar imagen</button>
+            </form>
+        </div>
+    </div>
+
+</body>
+
+</html>
